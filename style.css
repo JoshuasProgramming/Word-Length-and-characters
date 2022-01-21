@@ -1,0 +1,59 @@
+body{
+    background: #dd62a4;
+}
+
+h3{
+    font-size:50px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Tahoma, sans-serif;
+}
+
+.container{
+    background-color: #fff8dc;
+    width:700px;
+    height:300px;
+    margin:100px 320px;
+    border-radius:25px;
+}
+
+.textarea-input{
+    width:350px;
+    height: 100px;
+    margin:-10px 170px;
+    border:none;
+    outline: none;
+    border:1px solid black;
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+    background: transparent;
+}
+
+.reset-btn{
+    border:none;
+    font-size:25px;
+    margin:25px 300px;
+    border:3px solid black;
+    border-radius:10px;
+    opacity: 75%;
+}
+
+.reset-btn:hover{
+    cursor:pointer;
+    opacity: 100%;
+}
+
+.reset-btn:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+.output-area{
+    width:410px;
+    height:50px;
+    margin:0px 480px;
+    background-color: #fff8dc;
+    font-size:30px;
+    font-family:Tahoma, sans-serif;
+    border-radius:25px;
+    text-align: center;
+}
