@@ -3,7 +3,7 @@ const input = document.getElementById('input');
 const output = document.getElementById('output');
 
 //Once the user changes the input value...
-input.addEventListener("keydown", (e)=>{
+input.addEventListener("keyup", (e)=>{
     let spaces = (input.value.split(" ").length - 1);
     let length = (input.value.length);
     
